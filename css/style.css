@@ -1,12 +1,12 @@
 .header-ttl {
-  font-size: 16px;
+  font-size: 18px;
   color: rgb(7, 7, 158);
-  top: 30px;
-  left: 10px;
+  margin: 30px 0 0 20px;
 }
 
 .header-nav {
   font-size: 12px;
+  margin: 30px 20px 0 0;
   color: rgb(7, 7, 158);
   list-style: none;
   display: flex;
@@ -25,6 +25,31 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid red;
-  box-sizing: border-box;
+}
+
+.main-text{
+  font-size: 45px;
+}
+
+.main-line {
+  width: 1000px;
+  height: 140px;
+  background-color: rgb(37, 37, 151);
+}
+
+.main-img-jpeg{
+  display: block;
+  width: 45%;
+  margin: 0 0 0 auto;
+}
+
+.main {
+  position: relative;
+  top: 250px;
+}
+
+.main-img {
+  position: absolute;
+  top: 100px;
+  left: 250px;
 }
